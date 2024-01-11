@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Tabs</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1 class="heading">SELECT YOUR CHOICE</h1>
+    <div class="tabs">
+        <div class="tab active-tab" onclick="productsList('Men')" id="men">Men</div>
+        <div class="tab" onclick="productsList('Women')" id="women">Women</div>
+        <div class="tab" onclick="productsList('Kids')" id="kids">Kids</div>
+    </div>
+    <div class = "product-container">
+    <div class="product-card" id="Men"></div>
+    <div class="product-card" id="Women" style="display: none;"></div>
+    <div class="product-card" id="Kids" style="display: none;"></div>
+</div>
+</body>
+</html>
